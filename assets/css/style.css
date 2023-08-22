@@ -3,7 +3,7 @@
 #main{
     width: 100%;
     height: 110vh;
-    background: linear-gradient(rgba(246, 244, 235, 0.459), rgba(70, 130, 169, 0.651)), url("../img/background.jpg") top center;
+    background: linear-gradient(rgba(246, 244, 235, 0.1), rgba(70, 130, 169, 0.3)), url("../img/background.jpg") top center;
     background-size: cover;
     position: relative;
     margin-bottom: -50px;
@@ -41,9 +41,6 @@
     padding: 15px;
 }
 
-.site-logo span {
-    color: #144272;
-}
 
 .site-nav-menu {
     float: right;
@@ -75,6 +72,7 @@
 .primary-menu a:hover,
 .primary-menu .active {
     color: #033a45;
+    text-decoration: none;
 }
 
 .primary-menu li a:after {
@@ -110,26 +108,14 @@
     cursor: pointer;
 }
 
-section#hero-section {
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(135deg, #D2E9F3, #9CC9E1, #2F98C1);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-
 /* Responsive css */
 @media only screen and (max-width: 768px) {
     .site-nav-menu {
         float: none;
         position: absolute;
-<<<<<<< Updated upstream
         left: 0;
         width: 100%;
         padding: 10px;
-=======
-<<<<<<< HEAD
         background: linear-gradient(200deg, #D2E9F3, #9CC9E1, #2F98C1);
         width: 100%;
         left: 0;
@@ -158,16 +144,12 @@ section#hero-section {
 
     .primary-menu li a:after {
         display: none;
-=======
-        left: 0;
-        width: 100%;
-        padding: 10px;
->>>>>>> main
->>>>>>> Stashed changes
+        
+
     }
 }
 
-<<<<<<< HEAD
+
 
 .yeslogo{
     width: 150px;
@@ -175,66 +157,13 @@ section#hero-section {
 
 
 .item {
-    height: 480px;
-=======
-#main{
-    width: 100%;
-    height: 110vh;
-    background-size: cover;
-    position: relative;
-    margin-bottom: -50px;
-    background-size: cover;
-    background-position: right 50% bottom 15%;
-    background-repeat: no-repeat;
-}
+    height: 480px;}
 
 
-
-#main .main-container{
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
->>>>>>> main
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   }
-   
    .images {
     height: 100%;
     object-fit: cover;
     filter: brightness(0.6);
-   }
-
-<<<<<<< HEAD
-   .jumbotron {
-    background: linear-gradient(135deg, #C7E4FF, #F0F8FF);
-    padding: 40px;
-    border-radius: 20px;
-    transition: transform 0.3s;
-   }
-   
-   .jumbotron:hover {
-    transform: scale(1.05);
-   }
-   body {
-    background: linear-gradient(-45deg, #94A1EF, #9AB8F7, #A0D5F6, #A6ECFA);
-    background-size: 400% 400%;
-    animation: gradientAnimation 10s ease infinite;
-   }
-   
-   @keyframes gradientAnimation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
-    }
    }
 
 
@@ -251,19 +180,4 @@ section#hero-section {
 
    
   
-  
-=======
-.background{
-    
-}
 
-.background{
-    
-}
-
-#main h1{
-    font-family: 'Bree Serif';
-    color: #26a0dd;
-    text-transform: uppercase;
-}
->>>>>>> main
