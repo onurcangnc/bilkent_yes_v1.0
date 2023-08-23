@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="project_logo.png" alt="Project Logo" width="200">
+  <img src="https://raw.githubusercontent.com/onurcangnc/bilkent_yes_v1.0/main/assets/img/yesmavilogo.png" alt="Project Logo" width="200">
 </div>
 
 # 🚀 Bilkent Young Entrepreneurs Society Website 🚀
