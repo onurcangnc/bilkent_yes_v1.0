@@ -2,7 +2,7 @@
   <img src="project_logo.png" alt="Project Logo" width="200">
 </div>
 
-# 🚀 Bilkent Young Entrepreneurs Society Revamped Website 🚀
+# 🚀 Bilkent Young Entrepreneurs Society Website 🚀
 
 - Hello everyone ! This project aims to revamp the website of Bilkent University's Young Entrepreneurs Society. This README file is prepared to provide information about the project's structure, changes made, and the team behind the project.
 
