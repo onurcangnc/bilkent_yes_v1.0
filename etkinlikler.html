@@ -19,13 +19,18 @@
     <link rel="stylesheet" href="./CSS/navbar.css">
      <!-- font awesome cdn -->
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+     <style>
+      body{
+        background-color: #bed4e9;
+      }
+     </style>
 </head>
 
 <body>
   <nav class="header-area">
     <div class="header-container">
         <div class="site-logo">
-            <a href="index.html"><img class="yeslogo" src="assets/img/yes-logo.png" alt=""></a>
+            <a href="index.html"><img class="yeslogo" src="assets/img/yesmavilogo.png" alt=""></a>
             <span class="navbar-toggler-icon" ></span>
         </div>
         <div class="yazı" >
@@ -37,7 +42,7 @@
         <div class="site-nav-menu">
             <ul class="primary-menu">
                 <li><a href="index.html" >Anasayfa</a></li>
-                <li><a href="">Hakkımızda</a></li>
+                <li><a href="about.html">Hakkımızda</a></li>
                 <li><a href="">Görseller</a></li>
                 <li><a href="etkinlikler.html" class="active">EtKİNLİKLER</a></li>
                 <li><a href="">İLETİŞİM</a></li>
@@ -46,21 +51,29 @@
         </div>
     </div>
 </nav>
+<div>
+  <p>.</p>
+  <p>.</p>
+  <p>.</p>
+  <p>.</p>
+</div>
+
     <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel" >
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
           <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-
         </div>
-            <div class="hack">
-                <p style="text-align: center;">Hackathor</p>
-            </div>
+    
+        <div class="hack">
+                <p class="name" style="text-align: center;">HACKATHOR</p>
+        </div>
                
         <div class="carousel-inner">
           <div class="carousel-item active item">
             <img src="assets/img/h1.png" class="d-block w-100 images">
+            
            
           </div>
           <div class="carousel-item item">
@@ -75,7 +88,7 @@
           </div>
 
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+        <button id="prev" class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
@@ -94,7 +107,7 @@
 
         </div>
             <div class="hack">
-                <p style="text-align: center;">Start-up Zirvesİ</p>
+                <p class="name" style="text-align: center;">START-UP ZİRVESİ</p>
             </div>
                
         <div class="carousel-inner">

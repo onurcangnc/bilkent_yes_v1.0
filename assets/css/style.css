@@ -12,35 +12,35 @@ body{
     background-size: content;
     background-position: right 50% bottom 15%;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
 
 .header-area {
-    background: linear-gradient(135deg, #AFD3E2, #19A7CE, #146C94);
+    background: linear-gradient(135deg, #BCD2E8,#91BAD6, #73A5C6, #528AAE,#2E5984,#1E3F66);
     width: 100%;
     padding: 12px 30px;
     z-index: 9999999;
     border-bottom: 2px solid #909090ad;
+  position: fixed;
+ 
 }
+
+
+
+
 
 .header-container {
     display: table;
     width: 100%;
     margin: auto;
+   
 }
 
 .site-logo {
     float: left;
     padding: 17px 0px;
-}
-
-.site-logo a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 24px;
-    font-weight: 600;
-    padding: 15px;
 }
 
 
@@ -159,7 +159,8 @@ body{
 
 
 .item {
-    height: 480px;}
+    height: 450px;
+width: auto;}
 
 
    .images {
@@ -170,7 +171,7 @@ body{
 
 
    .yazı{
-    color: white;
+    color:#F6F4EB;
    margin-top: 50px;
    height: 5px;
    }
@@ -249,3 +250,24 @@ body{
     height: 10%;
     background-color: #F6F4EB;
   }
+
+.hack{
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+.prev{
+   position: relative;
+}
+
+.name{
+ 
+    color: black;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 15px 10px;
+    transition: .5s;
+}
