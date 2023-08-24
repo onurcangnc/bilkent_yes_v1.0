@@ -33,7 +33,7 @@ If you're interested in contributing to our project, please visit our GitHub acc
 As the project team, we always welcome feedback and suggestions. Feel free to share any questions, suggestions, or feedback with us. Our email addresses:
 
 - Can Kayıkcı: kayikcican@gmail.com
-- Simay Ardıç: simay@example.com
+- Simay Ardıç: simayardic@gmail.com
 - Onurcan Genç: onurcangencbilkent@gmail.com
 
 ## License 📄
