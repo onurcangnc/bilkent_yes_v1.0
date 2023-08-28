@@ -1,0 +1,372 @@
+.navbar{
+    z-index: 1;
+    background: linear-gradient(-180deg, #f6f4eb 29%, #91c8e4 65%, #749bc2 87%, #4682a9 98%);
+    background-size: 100% 400%;
+    animation: gradient 7s linear infinite;
+  }
+
+  
+  .nav-link.btn-primary:hover:hover {
+    background-color: rgb(0, 145, 182);
+    color: black;
+  }
+  
+  .nav-link.btn-primary{
+    display: inline-block;
+    padding: 10px;
+    margin-left: 30px;
+    border: none;
+    background-color: #4393c9;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  @keyframes gradient {
+    0%, 100% {
+        background-position: 50% 0%;
+    }
+    25% {
+        background-position: 50% 25%;
+    }
+    50% {
+        background-position: 50% 50%;
+    }
+    75% {
+        background-position: 50% 75%;
+    }
+  }
+  
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-item {
+    margin: 0 30px;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 767px) {
+   
+    .nav-item {
+      margin: 5px 0;
+    }
+  
+    .nav-link.btn {
+      padding: 8px 15px;
+    }
+  
+    .navbar-brand img {
+      height: 120px;
+      margin-right: 10px;
+    }
+  
+}
+
+/*Hackathor part started.*/
+
+.hack{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+    
+.prev{
+    position: relative;
+}
+    
+    
+.name{
+    color: black;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 15px 10px;
+    transition: .5s;
+}
+    
+
+
+.card span{
+    font-size: 21px;
+}
+    
+
+.s1info,.s1info2,.old{
+    background-color: #f0f3f8; 
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.old{
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    width: 500px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding: 10px;
+    
+}
+    
+    
+    
+.s1info h1 ,.s1info2 h1,.old h1{
+    color: #29465f; 
+    font-size: x-large;
+      
+}
+    
+.s1info p ,.s1info2 p{
+    font-size: 18px;
+    color: #6e7f91; 
+      
+}
+
+
+.hackblue{
+    background-color:#2E5984;
+    border-radius: 5px;
+    width: 94%;
+    margin-left: 50px;
+    height: 350px;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px
+  }
+
+
+  .hackblue h1{
+    color: white;
+  }
+
+  .hackblue p.fc{
+    margin: 150px;
+  }
+  
+  .hackblue img {
+    justify-content: space-around;
+    height: 250px;
+    
+  }
+  
+  .hackslide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .slider {
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+  }
+
+  .image-container {
+    width: 4500px;
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+    border-radius: 5px;
+  }
+
+  .image-container {
+    width: 4500px;
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 2s;
+    -moz-transition: left 2s;
+    -o-transition: left 2s;
+    transition: left 2s;
+    border-radius: 5px;
+  }
+  
+  .image-container img{
+    border-radius: 5px;
+  }
+  .slide {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+  }
+
+  #slide-1:target ~ .image-container {
+    left: 0px;
+  }
+  #slide-2:target ~ .image-container {
+    left: -500px;
+  }
+  #slide-3:target ~ .image-container {
+    left: -1000px;
+  }
+  #slide-4:target ~ .image-container {
+    left: -1500px;
+  }
+  #slide-5:target ~ .image-container {
+    left: -2000px;
+  }
+  #slide-6:target ~ .image-container {
+    left: -2500px;
+  }
+  #slide-7:target ~ .image-container {
+    left: -3000px;
+  }
+  #slide-8:target ~ .image-container {
+    left: -3500px;
+  }
+  #slide-9:target ~ .image-container {
+    left: -4000px;
+  }
+
+  .buttons {
+    position: relative;
+    top: -20px;
+  }
+
+  .buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50px;
+    background-color: white;
+  }
+  .buttons a:hover{background-color:#2E5984;}
+  .hackslide,
+  .s1info,.s1info2{
+   
+  float: left; 
+  } 
+  
+  
+  .s1info,.s1info2{
+  width: 20%;
+  justify-content: center;
+  margin-left: 30px;
+  height: 360px;}
+  
+  .s1info2{
+  width: 35%;
+  }
+  
+  .old,.slide, .slide2{display: inline-block;}
+
+
+/*Hackathor part ended.*/
+
+
+/*Fast and Curious part start*/
+
+.fastandcurious-container {
+  width: 4500px;
+  height: 300px;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+  border-radius: 5px;
+}
+
+
+#fastandcurious-slide-1:target ~ .fastandcurious-container {
+  left: 0px;
+}
+#fastandcurious-slide-2:target ~ .fastandcurious-container {
+  left: -500px;
+}
+#fastandcurious-slide-3:target ~ .fastandcurious-container {
+  left: -1000px;
+}
+#fastandcurious-slide-4:target ~ .fastandcurious-container {
+  left: -1500px;
+}
+#fastandcurious-slide-5:target ~ .fastandcurious-container {
+  left: -2000px;
+}
+#fastandcurious-slide-6:target ~ .fastandcurious-container {
+  left: -2500px;
+}
+#fastandcurious-slide-7:target ~ .fastandcurious-container {
+  left: -3000px;
+}
+#fastandcurious-slide-8:target ~ .fastandcurious-container {
+  left: -3500px;
+}
+#fastandcurious-slide-9:target ~ .fastandcurious-container {
+  left: -4000px;
+}
+
+/*Fast and Curious part end*/
+
+
+/*Ankara Start Up Summit start*/
+
+
+.startup-container {
+  width: 4500px;
+  height: 300px;
+  clear: both;
+  position: relative;
+  -webkit-transition: left 2s;
+  -moz-transition: left 2s;
+  -o-transition: left 2s;
+  transition: left 2s;
+  border-radius: 5px;
+}
+
+
+#ankarastartup-slide-1:target ~ .startup-container {
+  left: 0px;
+}
+#ankarastartup-slide-2:target ~ .startup-container {
+  left: -500px;
+}
+#ankarastartup-slide-3:target ~ .startup-container {
+  left: -1000px;
+}
+#ankarastartup-slide-4:target ~ .startup-container {
+  left: -1500px;
+}
+#ankarastartup-slide-5:target ~ .startup-container {
+  left: -2000px;
+}
+#ankarastartup-slide-6:target ~ .startup-container {
+  left: -2500px;
+}
+#ankarastartup-slide-7:target ~ .startup-container {
+  left: -3000px;
+}
+#ankarastartup-slide-8:target ~ .startup-container {
+  left: -3500px;
+}
+#ankarastartup-slide-9:target ~ .startup-container {
+  left: -4000px;
+}
+
+
+/*Ankara Start Up Summit end*/

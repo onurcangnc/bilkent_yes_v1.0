@@ -323,12 +323,14 @@ margin-top: 20px;
 .image-container img{
   border-radius: 5px;
 }
+
 .slide {
   float: left;
   margin: 0px;
   padding: 0px;
   position: relative;
 }
+
 #slide-1:target ~ .image-container {
   left: 0px;
 }
