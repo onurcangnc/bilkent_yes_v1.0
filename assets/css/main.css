@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    height: 50vh;
+  }
+  
+  #main{
+      width: 100%;
+      height: 200vh;
+      background:  linear-gradient(rgba(171, 196, 207, 0.459), rgba(149, 199, 223, 0.651)),url("../img/background.jpg");
+      background-size: cover;
+      position: relative;
+      margin-bottom: -50px;
+      background-size: content;
+      background-position: right 50% bottom 15%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+  
+  #main .main-container {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    top: 0;
+  }
+  
+  .header-container {
+      display: table;
+      
+      margin: auto;
+  }
+
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  z-index: 1;
+  background: linear-gradient(-180deg, #f6f4eb 29%, #91c8e4 65%, #749bc2 87%, #4682a9 98%);
+  background-size: 100% 400%;
+  animation: gradient s linear infinite;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(255, 255, 255, .15);
+}
+
+
+@keyframes gradient {
+    0%, 100% {
+        background-position: 50% 0%;
+    }
+    25% {
+        background-position: 50% 25%;
+    }
+    50% {
+        background-position: 50% 50%;
+    }
+    75% {
+        background-position: 50% 75%;
+    }
+  }
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
